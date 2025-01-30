@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXTwitter",
-	platforms: [.iOS("13.0")],
+	platforms: [.iOS("15.0")],
 	products: [
 		.library(
 			name: "GXTwitter",
 			targets: ["GXTwitterWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.8")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.15")
 	],
 	targets: [
 		.target(name: "GXTwitterWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXTwitter",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXTwitter-3.0.0-rc.8.xcframework.zip",
-			checksum: "a34a5ae671615918a9eb60bfce036e73e7ae11938bb219f300395b45b9faca45"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXTwitter-3.0.0-rc.15.xcframework.zip",
+			checksum: "9914298eaab2a32277c43d9dafa780a7cfe9080b0c2fe3089f5b3a3860efa6e8"
 		)
 	]
 )
