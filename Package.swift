@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXTwitterWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.2.0-beta.25")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.2.0-beta.27")
 	],
 	targets: [
 		.target(name: "GXTwitterWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXTwitter",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXTwitter-3.2.0-beta.25.xcframework.zip",
-			checksum: "3645acfdfc15cf018b2795c7755ef83398b1779744744996262401bd6dc89726"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXTwitter-3.2.0-beta.27.xcframework.zip",
+			checksum: "24e0d2413d279e37ddfd834dedff28326ff094ecd1b4d1d14c4e71131517be83"
 		)
 	]
 )
